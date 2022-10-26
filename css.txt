@@ -1,0 +1,141 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;700;900&display=swap");
+
+:root {
+  /* Primary */
+
+  --Soft-orange: hsl(35, 77%, 62%);
+  --Soft-red: hsl(5, 85%, 63%);
+
+  /* Neutral */
+
+  --Off-white: hsl(36, 100%, 99%);
+  --Grayish-blue: hsl(233, 8%, 79%);
+  --Dark-grayish-blue: hsl(236, 13%, 42%);
+  --Very-dark-blue: hsl(240, 100%, 5%);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Inter", sans-serif;
+  font-size: 15px;
+  background-color: var(--Off-white);
+  padding: 4em 0 0 0;
+}
+
+.container {
+  /* border: 2px solid magenta; */
+  width: 90%;
+  max-width: 1440px;
+  margin: 0 auto;
+}
+
+.container-nav {
+  border: 2px solid green;
+  width: 1440px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 2em 0;
+}
+
+nav ul {
+  border: 2px solid magenta;
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  font-size: 1.2rem;
+}
+
+nav li {
+  margin: 0 1em;
+}
+
+.content-container {
+  border: 2px solid magenta;
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  margin-bottom: 3em;
+}
+
+.content-left {
+  /* border: 2px solid magenta; */
+  width: 69%;
+}
+
+.content-left img {
+  max-width: 100%;
+  margin-bottom: 1em;
+}
+
+.main-content {
+  /* border: 2px solid magenta; */
+  display: flex;
+  justify-content: space-between;
+}
+
+.main-content-title {
+  /* border: 2px solid magenta; */
+  font-weight: 900;
+  font-size: 4.5rem;
+  width: 40%;
+  line-height: 1;
+}
+
+.main-content-readmore {
+  /* border: 2px solid magenta; */
+  width: 47%;
+  margin: 0 1.2em 0 0;
+  line-height: 1.5;
+  position: relative;
+}
+
+.main-content-readmore p {
+  /* font-size: 1.3rem; */
+}
+
+.main-content-readmore a {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  font-size: 1.2rem;
+  padding: 0.7em 1.5em;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: #fff;
+  background-color: var(--Soft-red);
+}
+
+.content-right {
+  /* border: 1px solid magenta; */
+  width: 29%;
+  background-color: var(--Very-dark-blue);
+  color: #fff;
+  padding: 1.5em;
+}
+
+.content-right h1 {
+  font-size: 2.5rem;
+  color: var(--Soft-orange);
+}
+
+.new-content {
+  /* border: 1px solid magenta; */
+  margin-top: 1em;
+}
+
+.bottom-container {
+  border: 1px solid magenta;
+  display: flex;
+  justify-content: space-between;
+}
+
+.numbered-content {
+  display: flex;
+}
